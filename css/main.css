@@ -1,0 +1,45 @@
+
+/* TODO: Move common css class codes into their own class later */
+
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+hr {
+    border: 1px solid black;
+    border-radius: 6px;
+    width: 56px;
+    /* TODO: create class for 2 different alignments center and left */
+}
+
+section.hero { /* the class .hero that is applied directly on a section element */
+    display: flex;
+    justify-content: space-between;
+}
+
+section.services { /* the class .services that is applied directly on a section element */
+
+}
+
+section.providers { /* the class .providers that is applied directly on a section element */
+
+}
+
+section.download { /* the class .download that is applied directly on a section element */
+
+}
+
+section.testimonials { /* the class .testimonials that is applied directly on a section element */
+
+}
+
+section.articles { /* the class .articles that is applied directly on a section element */
+
+}
+
+/* TODO: cards-container is used in 2 places - add reusable styles inside this class */
+.cards-container {
+
+}
