@@ -1,6 +1,22 @@
 :root {
 
+    /* colors */
+    --color-shade-black: #000000;
+    --color-shade-white: #FFFFFF;
 
+    --color-grey-black: #7D7987;
+
+    --color-blue-main: #458FF6;
+    --color-blue: #4089ED;
+    --color-blue-dark: #233348;
+    --color-blue-purple: #1F1534;
+
+    /* spacing */
+    --spacing-40: 40px;
+    --spacing-220: 220px;
+
+    /* width */
+    --width-76: 76%;
 
     /* font family */
     --main-font-family: 'Mulish', sans-serif;
