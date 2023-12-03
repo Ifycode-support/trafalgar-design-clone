@@ -1,5 +1,8 @@
 
 /* TODO: Move common css class codes into their own class later */
+body {
+    font-family: var(--main-font-family);
+}
 
 header {
     display: flex;
