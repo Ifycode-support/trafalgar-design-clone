@@ -10,39 +10,112 @@ header {
     justify-content: space-between;
 }
 
-hr {
-    border: 1px solid black;
-    border-radius: 6px;
-    width: 56px;
-    /* TODO: create class for 2 different alignments center and left */
+.sm-devices {
+    display: block;
 }
 
-section.hero { /* the class .hero that is applied directly on a section element */
-    display: flex;
-    justify-content: space-between;
-}
-
-section.services { /* the class .services that is applied directly on a section element */
-
-}
-
-section.providers { /* the class .providers that is applied directly on a section element */
-
-}
-
-section.download { /* the class .download that is applied directly on a section element */
-
-}
-
-section.testimonials { /* the class .testimonials that is applied directly on a section element */
-
-}
-
-section.articles { /* the class .articles that is applied directly on a section element */
-
+.desktop {
+    display: none;
 }
 
 /* TODO: cards-container is used in 2 places - add reusable styles inside this class */
 .cards-container {
 
+}
+
+.flex {
+    display: flex;
+}
+
+footer {
+    background-image: linear-gradient(183deg, var(--color-blue-light) -8.57%, var(--color-blue-mid) 82.96%);
+    /* padding: 110px 0; */
+}
+
+.footer-inner {
+
+}
+
+@media screen and (min-width: 901px) {
+    header {
+        width: var(--width-76);
+        margin: var(--spacing-auto);
+        padding: 56px 0 40px 0; /* feeling this should be margin */
+    }
+    
+    hr {
+        border: 1px solid black;
+        border-radius: 6px;
+        width: 56px;
+        /* TODO: create class for 2 different alignments center and left */
+    }
+    
+    section.hero { /* the class .hero that is applied directly on a section element */
+        display: flex;
+        justify-content: space-between;
+        width: 78%;
+        /* margin: var(--spacing-auto); */
+        margin: 40px auto 190px auto;
+    }
+    
+    section.services { /* the class .services that is applied directly on a section element */
+        width: var(--width-70);
+        margin: 0 auto 220px auto;
+    }
+    
+    section.providers { /* the class .providers that is applied directly on a section element */
+        display: flex;
+        justify-content: space-between;
+        width: 80%;
+        margin: 0 auto 220px auto;
+    }
+    
+    section.download { /* the class .download that is applied directly on a section element */
+        display: flex;
+        justify-content: space-between;
+        width: 72%;
+        margin: 0 auto 250px auto;
+    }
+    
+    section.testimonials { /* the class .testimonials that is applied directly on a section element */
+        width: 76%;
+        margin: 0 auto 216px auto;
+    }
+    
+    section.articles { /* the class .articles that is applied directly on a section element */
+        width: var(--width-70);
+        margin: 0 auto 200px auto;
+    }
+
+    .smaller-devices {
+        display: none;
+    }
+
+    .desktop {
+        display: block;
+    }
+    
+    /* TODO: cards-container is used in 2 places - add reusable styles inside this class */
+    .cards-container {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        gap: 37px 34px;
+    }
+    
+    .flex {
+        display: flex;
+    }
+    
+    footer {
+        background-image: linear-gradient(183deg, var(--color-blue-light) -8.57%, var(--color-blue-mid) 82.96%);
+        padding: 110px 0;
+    }
+    
+    .footer-inner {
+        display: grid;
+        grid-template-columns: 2fr 1fr 1fr 1fr;
+        gap: 37px 34px;
+        width: var(--width-76);
+        margin: var(--spacing-auto)
+    }    
 }

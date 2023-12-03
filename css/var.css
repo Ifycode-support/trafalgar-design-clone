@@ -8,14 +8,19 @@
 
     --color-blue-main: #458FF6;
     --color-blue: #4089ED;
+    --color-blue-mid: #5A98F2;
+    --color-blue-light: #67C3F3;
     --color-blue-dark: #233348;
     --color-blue-purple: #1F1534;
 
     /* spacing */
+    --spacing-auto: 0 auto;
     --spacing-40: 40px;
     --spacing-220: 220px;
 
+
     /* width */
+    --width-70: 70%;
     --width-76: 76%;
 
     /* font family */
