@@ -25,4 +25,27 @@
 
     /* font family */
     --main-font-family: 'Mulish', sans-serif;
+
+    /* Typography */
+    --type-bold-1-700: 700 20px/60px var(--main-font-family);
+    --type-bold-2-700: 700 36px/56px var(--main-font-family);
+    --type-bold-3-700: 700 48px/56px var(--main-font-family);
+
+    --type-body-bold-1-700: 700 18px/22.59px var(--main-font-family);
+    --type-body-bold-2-700: 700 18px/60px var(--main-font-family);
+    --type-body-bold-3-700: 700 21px/32px var(--main-font-family);
+    --type-body-bold-4-700: 700 22px/48px var(--main-font-family);
+    --type-body-bold-5-700: 700 24px/56px var(--main-font-family);
+
+    --type-regular-1-400: 400 18px/22.59px var(--main-font-family);
+    --type-regular-2-400: 400 18px/48px var(--main-font-family);
+    --type-regular-3-400: 400 19px/30px var(--main-font-family);
+
+    --type-light-1-300: 300 16px/28px var(--main-font-family);
+    --type-light-2-300: 300 17px/28px var(--main-font-family);
+    --type-light-3-300: 300 18px/28px var(--main-font-family);
+    --type-light-4-300: 300 18px/30px var(--main-font-family);
+    --type-light-5-300: 300 18px/38px var(--main-font-family);
+    --type-light-6-300: 300 21px/32px var(--main-font-family);
+
 }
